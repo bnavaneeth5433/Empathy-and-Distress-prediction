@@ -16,11 +16,14 @@ We have used two methods EmotionStack and EpitomeFusion
 
 [EpitomeFusion.ipynb](./EpitomeFusion.ipynb): Code for predicting the emotion labels at essay level using the EpitomeFusion approach.
 
-[aug_data_file.ipynb](./aug_data_file.ipynb): This file is to create augmented data I have used valid set of 270 sentences and created replacing nouns , verbs and both.
+[aug_data_file.ipynb](./aug_data_file.ipynb): This file is to create augmented data I have used valid set of 270 sentences and   dataset by replacing created replacing nouns , verbs and both. Also done swaping saved them in [aug_data](./aug_data/).
+
+[tranlate_data.ipynb](./tranlate_data.ipynb): This file is to create Translate data I have used valid set of 270 sentences and created some languages translated datasets. Saved them in [t_data](./t_data/)
 
 [Empathy_Distress_Inference.ipynb](./Empathy_Distress_Inference.ipynb): In this file I have checked the performance of my model with robustness. 
 
-[Empaty-Disstress-Score-Prediction.ipynb](./Empaty-Disstress-Score-Prediction.ipynb): In this I have trained the multilingual model.
+[Empaty-Disstress-Score-Prediction.ipynb](./Empaty-Disstress-Score-Prediction.ipynb): In this I have trained the multilingual model. Saved model size is arround 1 gb and there are 4 models. So I didn't upload them. 
+I have created 4 of them by changing data set from only englist to dataset of (hindi telugu and english) which is [data](./t_data/final_data_some_lang.tsv). and task Empathy or Distress.
 
 [one_short_with_eng.ipynb](./one_short_with_eng.ipynb): To check preformance of my multilingual model (which is trained with only english data) with some language texts.
 
